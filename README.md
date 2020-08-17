@@ -16,9 +16,9 @@ Today's web is dominated by the Chromium engine. It's slow to compile (5 hours o
 
 Firefox, the last alternative to Chromium, has unfortunately strayed away from its initial focus on privacy (it has huge amounts of telemetry and questionable partnerships), it's not embeddable at all, is even harder to build and develop than Chromium due to an older code base, has worse performance and battery usage.
 
-There's a clear room for a new fresh alternative. Have more browsers is healthier for the open web.
+There's a clear room for a new fresh alternative. Having more browsers is healthier for the open web.
 
-Developing a browser is a very difficult task because of the ever increasing complexity of the web. Companies like Opera and Microsoft gave up developing their own engines and switched to Chromium. However it's not impossible. For example, a new proprietary browser Flow now sucessfully works with Gmail, one of the most complicated web apps. The NetSurf browser works quite well with websites that don't rely on JavaScript for rendering.
+Developing a browser is a very difficult task because of the ever increasing complexity of the web. Companies like Opera and Microsoft gave up developing their own engines and switched to Chromium. However it's not impossible. For example, a new proprietary browser Flow now successfully works with Gmail, one of the most complicated web apps. The NetSurf browser works quite well with websites that don't rely on JavaScript for rendering.
 
 We will not be developing a new JavaScript engine, that simplifies the task significantly. The graphics/text rendering is handled completely by V's builtin libraries, and cross platform UI is handled by V UI.
 
