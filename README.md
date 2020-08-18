@@ -24,3 +24,11 @@ We will not be developing a new JavaScript engine, that simplifies the task sign
 
 All we need to do is write a simple CSS & HTML engine. With the V language which focuses on simple and maintainable code with fast compilation time, this will be a much easier task.  
 
+
+### Planned features
+
+- Focus on privacy and security. Complete lack of telemetry.
+- Optional Vim-like keyboard control for working without mouse (similar to Chrome's Vimium plugin).
+- Vertical tabs option (similar to Firefox's old Tree Style Tab extension).
+- Mouse gestures (like in Opera).
+
