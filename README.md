@@ -31,4 +31,5 @@ All we need to do is write a simple CSS & HTML engine. With the V language which
 - Optional Vim-like keyboard control for working without mouse (similar to Chrome's Vimium plugin).
 - Vertical tabs option (similar to Firefox's old Tree Style Tab extension).
 - Mouse gestures (like in Opera).
+- Built-in ad blocking (using uBlock Origin lists).
 
