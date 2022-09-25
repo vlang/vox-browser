@@ -11,7 +11,7 @@ fn test_html() {
 	}
 
 	assert parsed_html == html.Document{
-		doctype: html.DocType.@none
+		doctype: html.DocType.html
 		root: html.nil_node
 	}
 }

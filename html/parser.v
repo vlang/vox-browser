@@ -45,7 +45,7 @@ fn parse_tag(mut doc Document, mut current_node Node, mut scanner textscanner.Te
 			}
 		}
 		`/` {
-			current_node = current_node.parent() or {
+			current_node = current_node.get_parent() or {
 				panic("no parent")
 			}
 		}
@@ -54,7 +54,12 @@ fn parse_tag(mut doc Document, mut current_node Node, mut scanner textscanner.Te
 				panic("\nerror: $err\ncreating node from tag: $tag")
 			}
 
-			current_node = node
+			node.parent = current_node
+			current_node.add_child(node)
+			
+			if !is_void_tag(tag.split(" ")[0]) {
+				current_node = node
+			}			
 		}
 	}
 }
