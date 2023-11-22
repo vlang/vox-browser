@@ -1,6 +1,8 @@
-## V Browser
+## Vox Browser
 
-Development will start after V 1.0, but brainstorming can already take place.
+https://vox.sx
+
+![image](https://github.com/vlang/vox-browser/assets/687996/8abc3e44-e1ec-4897-b5d4-e3a0cabe0dc9)
 
 HTML/CSS - pure V, rendering via the V graphics module (DirectX 11, Metal, OpenGL, FreeType/stb_truetype).
 
